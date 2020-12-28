@@ -1,0 +1,41 @@
+nav {
+    background: #E2E2E2;
+    margin-bottom: 1rem;
+}
+
+.navContainer {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    margin: 0 auto;
+}
+
+.logoLink {
+    display: block;
+    height: 40px;
+}
+
+.logoImg {
+    width: 40px;
+    display: block;
+}
+
+.navTitle {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    color: #999999;
+    font-size: 2rem;
+}
+
+.pageTitle {
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
