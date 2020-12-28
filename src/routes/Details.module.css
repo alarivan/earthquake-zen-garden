@@ -1,0 +1,11 @@
+.container {
+    margin: 0 auto;
+    padding: 0.25rem 0 0 2rem;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container>div {
+    margin-bottom: 0.5rem;
+}

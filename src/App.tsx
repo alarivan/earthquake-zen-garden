@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import response from "./fetch/data";
 import Layout from "./components/Layout";
 import Profile from "./routes/Profile";
+import Details from "./routes/Details";
+import Home from "./routes/Home";
 
 export default function App() {
   const [pageTitle, setPageTitle] = useState(response.data.metadata.title);
@@ -19,10 +21,17 @@ export default function App() {
             <Profile profile={response.profile} setPageTitle={setPageTitle} />
           </Route>
           <Route path="/details/:featureId">
-            <div>details</div>
+            <Details
+              features={response.data.features}
+              setPageTitle={setPageTitle}
+            />
           </Route>
           <Route path="/">
-            <div>home</div>
+            <Home
+              features={response.data.features}
+              title={response.data.metadata.title}
+              setPageTitle={setPageTitle}
+            />
           </Route>
         </Switch>
       </Layout>

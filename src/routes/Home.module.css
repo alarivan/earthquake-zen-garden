@@ -1,0 +1,11 @@
+.table {
+    margin: 0 auto;
+}
+
+.placeColumn {
+    min-width: 300px;
+}
+
+.magColumn {
+    text-align: center;
+}
