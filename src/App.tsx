@@ -6,11 +6,14 @@ import Profile from "./routes/Profile";
 import Details from "./routes/Details";
 import Home from "./routes/Home";
 
+const baseName =
+  process.env.NODE_ENV === "production" ? "/earthquake-zen-garden" : "";
+
 export default function App() {
   const [pageTitle, setPageTitle] = useState(response.data.metadata.title);
 
   return (
-    <Router>
+    <Router basename={baseName}>
       <Layout
         site={response.site}
         profile={response.profile}
