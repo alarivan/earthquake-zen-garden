@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/earthquake-zen-garden/static/css/main.99a6c5a5.chunk.css",
+    "main.js": "/earthquake-zen-garden/static/js/main.20a66052.chunk.js",
+    "main.js.map": "/earthquake-zen-garden/static/js/main.20a66052.chunk.js.map",
+    "runtime-main.js": "/earthquake-zen-garden/static/js/runtime-main.9b4871e3.js",
+    "runtime-main.js.map": "/earthquake-zen-garden/static/js/runtime-main.9b4871e3.js.map",
+    "static/js/2.ed696b6d.chunk.js": "/earthquake-zen-garden/static/js/2.ed696b6d.chunk.js",
+    "static/js/2.ed696b6d.chunk.js.map": "/earthquake-zen-garden/static/js/2.ed696b6d.chunk.js.map",
+    "static/js/3.def4e6af.chunk.js": "/earthquake-zen-garden/static/js/3.def4e6af.chunk.js",
+    "static/js/3.def4e6af.chunk.js.map": "/earthquake-zen-garden/static/js/3.def4e6af.chunk.js.map",
+    "index.html": "/earthquake-zen-garden/index.html",
+    "static/css/main.99a6c5a5.chunk.css.map": "/earthquake-zen-garden/static/css/main.99a6c5a5.chunk.css.map",
+    "static/js/2.ed696b6d.chunk.js.LICENSE.txt": "/earthquake-zen-garden/static/js/2.ed696b6d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b4871e3.js",
+    "static/js/2.ed696b6d.chunk.js",
+    "static/css/main.99a6c5a5.chunk.css",
+    "static/js/main.20a66052.chunk.js"
+  ]
+}
